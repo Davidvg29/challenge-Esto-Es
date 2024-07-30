@@ -1,0 +1,44 @@
+.project{
+    background-color: white;
+    /* width: auto; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.content img{
+    width: 20px;
+}
+.content p{
+    /* background-color: red; */
+    margin: 0;
+    color:#00000073;
+}
+.conteinerUser{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.conteinerUser img{
+    width: 40px;
+}
+.conteinerUser h4{
+    margin-left: 10px;
+    padding: 0;
+    color: #000000A6;
+}
+.conteinerMore{
+    display: flex;
+    /* background-color: yellow; */
+    align-items: start;
+}
+.conteinerMore img{
+    width: 30px;
+}
+h3{
+    /* background-color: green; */
+    margin: 0;
+    color: #000000A6;
+}

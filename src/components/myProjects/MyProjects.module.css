@@ -1,0 +1,22 @@
+.conteinerMyProjects nav{
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.conteinerMyProjects button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #F5222D;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.conteinerMyProjects button:hover{
+    cursor: pointer;
+}
+
