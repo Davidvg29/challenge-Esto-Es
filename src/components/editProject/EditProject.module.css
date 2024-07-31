@@ -1,0 +1,97 @@
+.conteinerEditProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100vw; */
+    }
+.conteinerEditProject nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    /* width: 100vw; */
+    background-color: white;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+nav img{
+    width: 30px;
+}
+.conteinerEditProject h3{
+    color: #000000D9;
+    margin-left: 10px;
+
+}
+.conteinerEditProject p{
+    color: #000000A6;
+    margin-left: 5px;
+}
+
+.conteinerForm{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.conteinerForm form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.conteinerForm input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    background-color: white;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #595959;
+}
+.conteinerForm select{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    background-color: white;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #595959;
+}
+.conteinerForm option{
+    color: #595959;
+}
+.conteinerForm label{
+    color: #262626;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+label b{
+    margin-left: 10px;
+    color: #F5222D;
+    font-weight: 400;
+}
+
+.conteinerForm button{
+    background-color: #F5222D;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (min-width: 500px) {
+    .conteinerForm form{
+        width: 500px;
+    }
+}
+

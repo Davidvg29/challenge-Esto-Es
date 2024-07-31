@@ -19,4 +19,7 @@
 .conteinerMyProjects button:hover{
     cursor: pointer;
 }
+.conteinerMyProjects h3{
+    color: #000000D9;
+}
 
