@@ -6,8 +6,8 @@
     position: absolute;
     right: 0;
     /* bottom:280px; */
-    margin-right: 20px;
-    margin-top: 35px;
+    margin-right: 50px;
+    margin-top: 50px;
     background-color: white;
     width: 200px;
     border-radius: 5px;
@@ -42,3 +42,44 @@
     top: -10px;
     right: 10px;
   }
+  
+  .conteinerModalDelete{
+   z-index: 700;
+}
+.modalDelete{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+    background-color: white;
+    /* position: absolute; */
+    z-index: 800;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.562);
+}
+.modalDelete button{
+    margin: 5px;
+    background-color: #F5222D;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+    border-radius:5px;
+    border:none;
+}
+button.buttonCancel{
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+    border-radius:5px;
+    border:none;
+}

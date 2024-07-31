@@ -85,6 +85,9 @@ label b{
     font-size: 14px;
     border: none;
 }
+.conteinerForm button:hover{
+    cursor: pointer;
+}
 a{
     text-decoration: none;
 }
