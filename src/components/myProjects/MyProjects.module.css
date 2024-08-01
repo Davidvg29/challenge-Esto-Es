@@ -147,5 +147,5 @@ button.buttonSearch {
 }
 img.imgLeft{
     transform: rotate(180deg);
-    
+    z-index: -10;
 }
