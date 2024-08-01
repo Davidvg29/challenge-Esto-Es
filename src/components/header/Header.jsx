@@ -3,9 +3,11 @@ import css from "./Header.module.css"
 
 function Header(){
     return(
-        <header>
+        <div className={css.conteinerHeader}>
+            <header>
             <img src={imgLogo} alt="Esto es" />
         </header>
+        </div>
     )
 }
 export default Header
